@@ -10,3 +10,8 @@ Speech recognition, transcription and translation, for interviews
 ```bash
 pip install -r requirements.txt
 ```
+
+- Run the main transcription script:
+```bash
+python transcribe.py
+```
