@@ -8,12 +8,14 @@ output_dir = "transcriptions"
 # Create output directory if it doesn't exist
 os.makedirs(output_dir, exist_ok=True)
 
+# Load the Whisper model
+model = whisper.load_model("turbo")
+# TODO : Load the Whisper model with the appropriate size, depending on available resources, turbo model requires 6GB of VRAM
 
 # TODO: Read the audio files from the "dialogues_example" directory
 
 # Load the Whisper model and transcribe an audio file
 filename = "dialogues_example/audio-1.mp3"
-model = whisper.load_model("turbo")
 result = model.transcribe("audio.mp3")
 print(result["text"])
 
