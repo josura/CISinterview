@@ -1,5 +1,9 @@
 import whisper
 
+# Define input and output directories
+input_dir = "dialogues_example"
+output_dir = "transcriptions"
+
 # TODO: Read the audio files from the "dialogues_example" directory
 
 # Load the Whisper model and transcribe an audio file
