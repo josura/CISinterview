@@ -1,8 +1,13 @@
 import whisper
+import os
 
 # Define input and output directories
 input_dir = "dialogues_example"
 output_dir = "transcriptions"
+
+# Create output directory if it doesn't exist
+os.makedirs(output_dir, exist_ok=True)
+
 
 # TODO: Read the audio files from the "dialogues_example" directory
 
