@@ -15,3 +15,5 @@ pip install -r requirements.txt
 ```bash
 python transcribe.py
 ```
+
+The transcribed outputs will be written inside the *transcriptions* folder
