@@ -5,11 +5,16 @@ Speech recognition, transcription and translation, for interviews
 # Requirements
 - Python 3.10
 
-# Usage
+# Build
+- Create the environment (Linux commands)
+```bash
+python3.10 -m venv venv
+```
 - Install the requirements:
 ```bash
 pip install -r requirements.txt
 ```
+# Usage
 - Add the audio files inside the *dialogues_example* folder
 - Run the main transcription script:
 ```bash
