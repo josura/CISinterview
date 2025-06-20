@@ -10,6 +10,10 @@ Speech recognition, transcription and translation, for interviews
 ```bash
 python3.10 -m venv venv
 ```
+- Source the environment (Linux commands)
+```bash
+source venv/bin/activate
+```
 - Install the requirements:
 ```bash
 pip install -r requirements.txt
