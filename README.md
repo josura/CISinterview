@@ -4,6 +4,7 @@ Speech recognition, transcription and translation, for interviews
 
 # Requirements
 - Python 3.10
+- ffmpeg (required by whisper)
 
 # Build
 - Create the environment (Linux commands)
@@ -18,6 +19,7 @@ source venv/bin/activate
 ```bash
 pip install -r requirements.txt
 ```
+**IMPORTANT:** some dependencies in the requirement are linux specific, if any problem arises, try to install whisper directly and see if everything works.
 # Usage
 - Add the audio files inside the *dialogues_example* folder
 - Run the main transcription script:
